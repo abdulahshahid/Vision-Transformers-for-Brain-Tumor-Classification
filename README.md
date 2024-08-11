@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/2b81cddf-337d-48c1-a329-6e242ba0136f)
+
 # Vision Transformers for Brain Tumor Classification
 ### **Introduction**
 
