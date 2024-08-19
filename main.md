@@ -43,9 +43,6 @@ During the exploratory data analysis phase, several key insights were gathered, 
 
 3. **Active vs. Idle Times in DDoS Attacks**:  
    ![image](https://github.com/user-attachments/assets/26dacd82-16a0-4017-ae74-69a7985fd65a)
-
-Certainly! A table can effectively present the class distribution before and after applying SMOTE. Here’s how it can be formatted in the README:
-
 ---
 
 ## Preprocessing
