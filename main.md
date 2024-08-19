@@ -12,7 +12,6 @@ This project is centered around enhancing network security by developing a robus
 - **Real-Time Detection Interface:** We are also developing an interactive interface that integrates our trained models, facilitating real-time detection and classification of network threats.
 - **Model Deployment:** The models are prepared for deployment, enabling seamless integration into existing network security frameworks to enhance real-time threat detection capabilities.
 
-Great, I'll include this information in the **Dataset** section to provide a clear picture of the specific classes involved in the dataset.
 
 ---
 
@@ -27,7 +26,6 @@ The project utilizes the CICIDS2017 dataset, sourced from the Canadian Institute
 
 Each CSV file within the dataset represents different network behaviors, enabling detailed training of the IDS to effectively identify and differentiate between these varied attack types alongside benign traffic.
 
-Let's incorporate those specific graphs into the **Exploratory Data Analysis (EDA)** section to highlight the visual insights you derived from the dataset.
 
 ---
 
