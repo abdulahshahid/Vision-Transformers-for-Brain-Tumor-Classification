@@ -86,3 +86,40 @@ In preparing the dataset for model training, several key preprocessing steps wer
 5. **Feature Scaling**:  
    - Features were standardized using `StandardScaler` from `sklearn` to ensure uniform contribution to the model.
 
+
+---
+
+## Model Training
+
+After preprocessing, the dataset was ready for model training. We implemented two machine learning models and one deep learning model to classify the network attacks:
+
+### 1. **Random Forest Classifier**  
+   - **Model Selection**: We chose a Random Forest Classifier for its robustness and ability to handle large datasets effectively.
+   - **Training**: The model was trained using the resampled dataset, with 20% of the data reserved for testing. 
+   - **Performance**: The Random Forest model achieved a high accuracy, and its performance was evaluated using various metrics such as the classification report, confusion matrix.
+
+   **Key Metrics**:
+   - **Accuracy**: Provided insight into the overall performance of the model.
+![image](https://github.com/user-attachments/assets/b7428a9e-c873-4908-a60d-28d1ab991d1c)
+
+   - **Confusion Matrix**: Visualized the model's ability to correctly classify the different attack types.
+![image](https://github.com/user-attachments/assets/0a59618a-d289-4041-ad7f-978da4c37761)
+   
+### 2. **Deep Neural Network (DNN)**  
+   - **Model Architecture**: The DNN model consisted of an input layer, two hidden layers with dropout for regularization, and an output layer using softmax activation to handle multi-class classification.
+   - **Training**: The DNN was trained over 20 epochs with a batch size of 32, using the categorical cross-entropy loss function.
+   - **Performance**: The DNN model’s performance was evaluated using similar metrics as the Random Forest, including accuracy, classification report, and confusion matrix.
+
+   **Key Metrics**:
+   - **Accuracy**: Evaluated how well the DNN model classified the network attacks.
+![image](https://github.com/user-attachments/assets/c7c307b9-f698-47fb-8c59-8a550daadee7)
+   - **Confusion Matrix**: Provided detailed insights into the performance of the DNN model across all attack types.
+![image](https://github.com/user-attachments/assets/4d6ee1b4-fab8-476e-8987-1bd16a938b07)
+
+   **Model Saving**:
+   - The DNN model was saved in the HDF5 format (`.h5`) using TensorFlow’s `save` method.
+
+### 3. **Model Selection for Inference**
+   - The trained models (Random Forest and DNN) were integrated into a Streamlit interface for real-time attack detection, where users can input network parameters and receive a classification prediction.
+
+---
