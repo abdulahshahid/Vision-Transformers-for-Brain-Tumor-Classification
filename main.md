@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a8fa282b-461f-43b5-a2b4-b989a0fba2bf)
+
 # Intrusion Detection System (IDS) for Network Traffic Analysis
 
 ## Overview
@@ -120,3 +122,20 @@ After preprocessing, the dataset was ready for model training. We implemented tw
    - The trained models (Random Forest and DNN) were integrated into a Streamlit interface for real-time attack detection, where users can input network parameters and receive a classification prediction.
 
 ---
+
+
+## Inference and Real-Time Attack Detection
+
+The trained models were integrated into a Streamlit-based interface for real-time network attack detection. Users can input network parameters into the interface, and the model will classify the type of attack based on the provided data. Below are examples of the interface classifying different types of attacks:
+
+### Example 1: DDoS Attack Classification
+
+
+### Example 2: PortScan Attack Classification
+
+
+### Example 3: Botnet Activity Detection
+
+
+---
+
