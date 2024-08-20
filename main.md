@@ -136,8 +136,9 @@ The trained models were integrated into a Streamlit-based interface for real-tim
 ![image](https://github.com/user-attachments/assets/451423de-a3d7-4af2-96a4-d269cfca1263)
 
 
-### Example 3: Botnet Activity Detection
+### Example 3: Heartbleed Attack Detection
 
+![image](https://github.com/user-attachments/assets/70d78537-996b-4512-ab4b-ad6e4e0aff8c)
 
 ---
 
