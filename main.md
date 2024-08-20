@@ -128,10 +128,12 @@ After preprocessing, the dataset was ready for model training. We implemented tw
 
 The trained models were integrated into a Streamlit-based interface for real-time network attack detection. Users can input network parameters into the interface, and the model will classify the type of attack based on the provided data. Below are examples of the interface classifying different types of attacks:
 
-### Example 1: DDoS Attack Classification
+### Example 1: BENIGN Attack Classification
+![image](https://github.com/user-attachments/assets/9f0deda1-b6fd-401b-8039-81366a3317fe)
 
 
-### Example 2: PortScan Attack Classification
+### Example 2: DoS Hulk Attack Classification
+![image](https://github.com/user-attachments/assets/451423de-a3d7-4af2-96a4-d269cfca1263)
 
 
 ### Example 3: Botnet Activity Detection
