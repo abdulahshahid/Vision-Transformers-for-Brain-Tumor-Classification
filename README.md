@@ -116,4 +116,4 @@ Future work could explore the use of larger datasets, different pre-trained mode
 
 ---
 
-This content follows the detailed Table of Contents you provided and is tailored to the work you’ve done on the Vision Transformer project. You can now add any images and finalize the report. Let me know if you need any further assistance!
+
